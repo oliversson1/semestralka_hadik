@@ -1,0 +1,1 @@
+/usr/bin/cc -g -Wl,--dependency-file=CMakeFiles/semestralka_WSL.dir/link.d CMakeFiles/semestralka_WSL.dir/main.c.o -o semestralka_WSL

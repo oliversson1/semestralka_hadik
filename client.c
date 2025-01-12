@@ -104,7 +104,7 @@ void startServer() {
     }
 
     if (pid == 0) {
-        printf("Child process: Starting the server...\n");
+        printf("Starting the server...\n");
 
         int result = execl("./server", "server", NULL);
         if (result == -1) {
@@ -112,7 +112,7 @@ void startServer() {
             exit(1);
         }
     } else {
-        printf("Parent process: Server process created successfully.\n");
+        printf("Server process created successfully.\n");
     }
 }
 
